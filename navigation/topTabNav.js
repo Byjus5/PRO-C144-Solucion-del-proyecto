@@ -14,7 +14,7 @@ export default function TopTabNav() {
       tabBarStyle: { backgroundColor: '#3D550C' },
     }}>
       <AppTopNavigation.Screen name="Popular" component={PopularScreen} />
-      <AppTopNavigation.Screen name="Recommended" component={RecommendedScreen} />
+      <AppTopNavigation.Screen name="Recomendado" component={RecommendedScreen} />
     </AppTopNavigation.Navigator>
   );
 }
