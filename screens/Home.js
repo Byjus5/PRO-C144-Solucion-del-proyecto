@@ -73,7 +73,7 @@ export default class HomeScreen extends Component {
             style={{ flex: 1 }}
           >
             <View style={styles.headerContainer}>
-              <Text style={styles.headerTitle}>Articles to Read</Text>
+              <Text style={styles.headerTitle}>Artículos para leer</Text>
               <Icon
                 name="chevron-right"
                 type="feather"
@@ -115,9 +115,9 @@ export default class HomeScreen extends Component {
             style={{ flex: 1 }}
           >
             <View style={styles.headerContainer}>
-              <Text style={styles.headerTitle}>Articles to Read</Text>
+              <Text style={styles.headerTitle}>Artículos para leer</Text>
             </View>
-            <Text style={styles.headerTitle}>Loading...</Text>
+            <Text style={styles.headerTitle}>Cargando...</Text>
           </ImageBackground>
         </View>
       );
