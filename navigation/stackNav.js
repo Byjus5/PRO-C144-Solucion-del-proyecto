@@ -11,8 +11,8 @@ export default function StackNav() {
         headerShown: false,
       })}
     >
-      <AppStackNavigation.Screen name="Home" component={HomeScreen} />
-      <AppStackNavigation.Screen name="Articles" component={TopTabNav} />
+      <AppStackNavigation.Screen name="Principal" component={HomeScreen} />
+      <AppStackNavigation.Screen name="Artículos" component={TopTabNav} />
     </AppStackNavigation.Navigator>
   );
 }
