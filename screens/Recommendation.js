@@ -40,7 +40,7 @@ export default class PopularScreen extends Component {
   renderItems = ({ item, index }) => {
       return (
         <View style={styles.cardContainer}>
-          <Text style={styles.title}>Article name: {"\n\n"+item.title}</Text>
+          <Text style={styles.title}>Nombre del artículo: {"\n\n"+item.title}</Text>
           <Star score={item.total_events} style={styles.starStyle} />
         </View>
       );
